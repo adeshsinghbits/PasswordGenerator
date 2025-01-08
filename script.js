@@ -1,15 +1,6 @@
 
 let NumberAllow = document.querySelector("#numbercheckbox")
 let CharacterAllow = document.querySelector("#charcatercheckbox")
-
-
-
-
-
-
-
-
-
   function checkCheckbox() {
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     if (NumberAllow.checked && CharacterAllow.checked) {
